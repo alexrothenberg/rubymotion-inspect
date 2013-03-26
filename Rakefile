@@ -2,6 +2,7 @@
 $:.unshift("/Library/RubyMotion/lib")
 require 'motion/project'
 require 'bundler'
+require 'motion-calabash'
 
 Bundler.setup
 Bundler.require
